@@ -1,0 +1,39 @@
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#theme-toggle i {
+  font-size: 1.2rem;
+}
+.navbar--fixed-top {
+  position: sticky;
+  top: 0;
+  z-index: var(--ifm-z-index-fixed);
+}
+
+#main-content{
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
+#themeSwitcher {
+  min-width: 120px;
+}
+
+.bi-palette {
+  color: #007bff; /* Bootstrap primary color */
+}
+.bi-palette:hover {
+  color: #0056b3; /* Darker hover color */
+}

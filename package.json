@@ -1,0 +1,28 @@
+{
+  "name": "cypress-reusable-library",
+  "version": "1.0.0",
+  "description": "Reusable Cypress library for meta-features and commands",
+  "main": "index.js",
+  "keywords": [
+    "cypress",
+    "automation",
+    "reusable",
+    "meta-features",
+    "testing"
+  ],
+  "author": "KTAMI Ismail",
+  "license": "MIT",
+  "bin": {
+    "cypress-reusable-library": "./bin/cli.js"
+  },
+  "config": {
+    "featuresPath": "features"
+  },
+  "scripts": {
+    "serve": "nodemon ./bin/cli.js serve"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
